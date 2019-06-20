@@ -1,19 +1,22 @@
 {
-  "name": "todo",
-  "version": "1.0.0",
-  "description": "CAS FEE 2019",
-  "main": "index.js",
+  "name": "first-project",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gboxdaky/first_project.git"
-  },
-  "author": "Damir Duraki",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gboxdaky/first_project/issues"
-  },
-  "homepage": "https://github.com/gboxdaky/first_project#readme"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "errorhandler": "^1.5.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "method-override": "^3.0.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^1.6.5",
+    "serve-static": "^1.14.1"
+  }
 }
