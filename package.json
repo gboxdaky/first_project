@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "CAS FEE 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gboxdaky/first_project.git"
+  },
+  "author": "Damir Duraki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gboxdaky/first_project/issues"
+  },
+  "homepage": "https://github.com/gboxdaky/first_project#readme"
+}

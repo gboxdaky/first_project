@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F3F6;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+} */
+header {
+    /*background-color: #008B74;*/
+    background-color: #F4F3F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    height: 200px;
+    align-items: center;
+}
+
+header p {
+    position: absolute;
+    right: 21%;
+    top: 25px;
+    color: #747871;
+    font-weight: 900;
+}
+.create_notes {
+    /* display: flex;
+    flex-direction: row; */
+    width: 200px;
+    height: 50px;
+    color:white;
+    font-size: 1.2rem;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #2E4975;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+header a {
+    /* display: flex;
+    flex-direction: row; */
+    width: 200px;
+    height: 25px;
+}
+.change_style {
+    /* display: flex;
+    flex-direction: row; */
+    width: 200px;
+    height: 50px;
+    background-color: #2E4975;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+select {
+    /* width: 100%;
+    height: 40px; */
+    padding-left: 30px;
+    /* background: url(fff-0-2.png) repeat; */
+    /* color: #fff; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    background-color: #2E4975;
+}
+select::before {
+    /* font-family: fontello; */
+    content: "\f107";
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff;
+    pointer-events: none;
+  }
+  select:focus::-ms-value {
+    background-color: #2E4975;
+  }
+.change_style::-ms-expand {
+    display: none;
+  }
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+}
+.navbar_liste {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: flex-start;
+    padding: 30px;
+    margin: 20px;
+    /* background-color: #00C9A7; */
+}
+.navbar_liste li a {
+    width: 100%;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    color: #2E4975;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar_liste a:hover,
+.navbar_liste a:active {
+    border-bottom: 5px solid #2E4975;
+}
+.list_item {
+    list-style: none;
+    border-right: 5px solid #2E4975;
+}
+.button_finished a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.button_finished {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    margin-right: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+}
+.show_finished {
+    width: 150px;
+    height: 80px;
+    color: #fff;
+    background-color: #2E4975;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+}
+
+/* Style Section */
+
+section {
+    height: 300px;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+section h4 {
+    width: 50px;
+}
+#finished_today {
+    width: 20px;
+    margin-left: 30px;
+}
+#select_item {
+    width: 500px;
+    height: 50px;
+}
+.edt_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 200px;
+}
+.edit_finished {
+    padding: 10px;
+    width: 150px;
+    height: 80px;
+    background-color: #2E4975;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+}
+.checked {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
